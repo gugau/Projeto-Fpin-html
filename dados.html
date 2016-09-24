@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
     <head>
    		<meta charset="utf-8">
@@ -10,31 +10,30 @@
     	
         <header id="menu">
             	<ul>
-                	<li><a href="index.html">Home</a></li>
-                    <li><a href="facaparte.html">Faça parte</a></li>
-                    <li><a href="form.html">Cadastre-se</a></li>
+                	<li><a href="postloginpess.html">voltar</a></li>
                     <li><a href="parceiras.html">ONGs parceiras</a></li>
                     <li><a href="contato.html">Contato</a></li>
-                    <li style="float:right"><a href="login.html">Login</a></li>
+                    <li style="float:right"><a href="login.html">Log-out</a></li>
                     <li style="float:right"><a href="leiame.txt">Sobre</a></li>
                 </ul>
         </header>
         
 <div class="geral">      
-    	        <h1>Cadastro</h1>
-  <form action="cadastro.html" method="get">
+	
+    <h1>Cadastro</h1>
+  <form action="dadosup.html" method="get">
           <p>Nome completo/Nome da ong:</p> 
-            <input type="text" name="nome">
+            <input type="text" name="nome" value="gustavo felipe/ Agencia amiga">
             <p>CPF/CNPJ:</p> 
-            <input type="text" name="codigo_pessoa">        
+            <input type="text" name="codigo_pessoa" value="11332145612">        
 			<p>Telefone:</p> 
-        	<input type="tel" name="tel">
+        	<input type="tel" name="tel" value="8233585457">
             <p>E-mail:</p> 
-	        <input type="email" name="email">
+	        <input type="email" name="email" value="agenciaamiga@gmail.com">
             <p>Senha:</p> 
-	        <input type="password" name="senha">
+	        <input type="text" name="senha" value="123654">
             <p>Endereço:</p> 
-            <input type="text" name="endereco">
+            <input type="text" name="endereco" value="Rua 20, bairro jardim petropolis numero 10">
             <p>Estado:</p> 
         	<select name="listaEstados">
  				<option value="AC">AC</option>
@@ -67,18 +66,12 @@
             </select>
 			
 			<br>
-            <table>
-			<tr>
-            	<th>Tipo de parceria: </th>
-            	<td><input type="radio" name="tipo" id="ong" value="ong"> ONG</td>
-  				<td><input type="radio" name="tipo" id="pessoafis" value="pessoafis" checked="checked"> Pessoa Fisica</td>
-            </tr>
-    		</table>
-                <input type="submit" Value="Cadastrar">
-                <input type="reset" value="Limpar">
-  </form>
-        
-  </div>
+  
+                <input type="submit" Value="Atualizar dados">
+                <input type="submit" value="Cancelar">  
+        </form>  	
+
+</div>        
         <footer>
         	<a href="leiame.txt">leiame.txt</a>
         </footer>
@@ -86,3 +79,4 @@
 
 </body>
 </html>
+
